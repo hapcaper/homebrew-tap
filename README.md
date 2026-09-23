@@ -24,6 +24,8 @@ oneTool 未使用 Apple 开发者签名，首次打开会被 macOS 拦截一次�
 
 打包完成后（DMG 在 oneTool 仓库的 dist/ 下）：
 
-    scripts/release.sh 1.2 ~/Code/Myself/oneTool/dist/oneTool-1.2.dmg
+    HTTPS_PROXY=http://127.0.0.1:7897 scripts/release.sh 1.2 ~/Code/Myself/oneTool/dist/oneTool-1.2.dmg
+
+（`HTTPS_PROXY` 供脚本里的 `git push` 用，github.com 在部分网络需要代理；gh 的资产上传脚本会自动剥掉代理走直连。）
 
 脚本会创建 v<版本号> Release、上传 DMG、更新 Casks/onetool.rb 的 version 与 sha256 并推送。
