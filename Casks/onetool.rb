@@ -7,7 +7,7 @@ cask "onetool" do
   desc "Menu bar clipboard manager with OCR, pin-to-screen and a drawing board"
   homepage "https://github.com/hapcaper/homebrew-tap"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "oneTool.app"
 
