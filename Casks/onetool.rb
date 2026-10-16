@@ -1,10 +1,10 @@
 cask "onetool" do
-  version "1.1"
-  sha256 "23bc4af22fd5a4b8e9494c509441b3b734f2a28b33ee1cdde2b55b0278697c2b"
+  version "1.3"
+  sha256 "7059c01484d13e19423ea34f92d4d5aedc2c62495a7310e7225100a4f49788e8"
 
   url "https://github.com/hapcaper/homebrew-tap/releases/download/v#{version}/oneTool-#{version}.dmg"
   name "oneTool"
-  desc "Menu bar clipboard manager with OCR, pin-to-screen and a drawing board"
+  desc "Menu bar clipboard manager with OCR, translation and a drawing board"
   homepage "https://github.com/hapcaper/homebrew-tap"
 
   depends_on macos: :sonoma
