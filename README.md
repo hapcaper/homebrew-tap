@@ -1,6 +1,6 @@
 # homebrew-tap
 
-oneTool 的 Homebrew 源。此仓只放 cask 与发行版 DMG，App 源码不公开。
+oneTool 的 Homebrew 源。
 
 ## 安装
 
