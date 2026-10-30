@@ -1,6 +1,6 @@
 cask "onetool" do
-  version "1.6.1"
-  sha256 "3332fbd8ba4c1fb4908fcd1ca39d7cfa3c026b4d46eb2e7ef152b1eb8fba5e46"
+  version "1.7.0"
+  sha256 "fbdc97c61e01aed8d110b797972d56983aa4b0a2f50d861be350961d1275389a"
 
   url "https://github.com/hapcaper/homebrew-tap/releases/download/v#{version}/oneTool-#{version}.dmg"
   name "oneTool"
